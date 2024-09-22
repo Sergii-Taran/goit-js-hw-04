@@ -1,4 +1,4 @@
-'use strickt';
+'use strict';
 
 function isEnoughCapacity(products, containerSize) {
   const totalItems = Object.values(products).reduce(
